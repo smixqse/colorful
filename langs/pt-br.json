@@ -1,0 +1,22 @@
+{
+  "PROCESSING": "🔍 | Processando...",
+  "THESE_COLORS": "Algumas dessas cores podem combinar com o seu avatar",
+  "ERROR": "Algo deu errado",
+  "AVAILABLE_COLORS": "Cores disponíveis",
+  "LIST_COMMAND": "te mostra uma lista de cores.",
+  "COLOR_YOURSELF": "Para se colorir, digite a cor que desejar como um comando de bot em um canal que eu consigo ver. Espaços são permitidos. Exemplo:",
+  "LIGHT_BLUE": "azul claro",
+  "SILENT_USE": "Em canais onde eu não posso enviar mensagens, você pode usar meus comandos normalmente. Eu não vou responder, vou deletar sua mensagem, mas você ainda vai poder adicionar e remover cores de si mesmo.",
+  "SHORT_CMD": "Você não precisa digitar o nome inteiro da cor, digitar \"Cor\", nem o @ na menção de cargo.",
+  "AVATAR_COMMAND": "procura cores que combinem com o seu avatar.",
+  "NO_COLORS": "Nenhuma cor encontrada.",
+  "COLOR_NAME_MOD": "Verifique se os nomes dos cargos de cor",
+  "COLOR_NAME_USER": "Peça para um admin verificar se o nome dos cargos de cor",
+  "START_WITH": "começam com",
+  "END_WITH": "terminam com",
+  "CONTAIN": "contém",
+  "COULD_NOT_FIND": "Nenhuma cor ou comando foi encontrado. Tente usar o comando de ajuda (help).",
+  "COLORED": "Agora você tem a cor",
+  "NOT_COLORED": "Agora você não tem mais a cor",
+  "MISSING_PERMISSIONS": "Eu não tenho a permissão para fazer isso."
+}

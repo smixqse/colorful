@@ -1,0 +1,22 @@
+{
+  "PROCESSING": "🔍 | Processing...",
+  "THESE_COLORS": "Some of these colors may match your icon",
+  "ERROR": "Something went wrong",
+  "AVAILABLE_COLORS": "Available colors",
+  "LIST_COMMAND": "shows you a list of colors.",
+  "COLOR_YOURSELF": "To color yourself, write the color name as a bot command on a channel i can see. Spaces are allowed. Example:",
+  "LIGHT_BLUE": "light blue",
+  "SILENT_USE": "On channels I can't send messages, you can use my commands normally. I won't reply, will delete your message but you can still add and remove colors from yourself.",
+  "SHORT_CMD": "You don't need to write the entire color name, neither write \"Color\", neither the @ on the role mention.",
+  "AVATAR_COMMAND": "searches colors based on your profile picture.",
+  "NO_COLORS": "No colors found.",
+  "COLOR_NAME_MOD": "Make sure the roles names",
+  "COLOR_NAME_USER": "Tell an admin to change the roles names to make sure them",
+  "START_WITH": "start with",
+  "END_WITH": "end with",
+  "CONTAIN": "contain",
+  "COULD_NOT_FIND": "No color or command with that name could be found. Try using the help command.",
+  "COLORED": "You're now colored as",
+  "NOT_COLORED": "You're no longer colored as",
+  "MISSING_PERMISSIONS": "I don't have the permission to give or remove roles."
+}

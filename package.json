@@ -1,0 +1,29 @@
+{
+  "name": "colorful-discord",
+  "version": "1.0.0",
+  "description": "A simple Discord bot that allows users to add custom colors to their name.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "github:discordjs/discord.js",
+    "express": "^4.16.3",
+    "node-vibrant": "^3.1.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/smixqse/colorful"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "discord.js",
+    "discord",
+    "colors",
+    "bot"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "colorDetect": {
+    "startswith": ["Cor ", "Color "],
+    "endswith": [],
+    "contains": []
+  },
+  "lang": "en",
+  "prefix": "c!",
+  "silentUse": true
+}
