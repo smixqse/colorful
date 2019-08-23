@@ -10,7 +10,8 @@
     "chalk": "^2.4.2",
     "discord.js": "github:discordjs/discord.js",
     "express": "^4.16.3",
-    "node-vibrant": "^3.1.1"
+    "node-vibrant": "^3.1.1",
+    "dotenv-safe": "^8.1.0"
   },
   "engines": {
     "node": "12.x"

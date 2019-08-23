@@ -1,3 +1,4 @@
+require('dotenv-safe').config();
 const Discord = require("discord.js"),
     config = require("./config.json"),
     Vibrant = require("node-vibrant"),
