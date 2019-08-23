@@ -6,5 +6,6 @@
   },
   "lang": "en",
   "prefix": "c!",
-  "silentUse": true
+  "silentUse": true,
+  "hostedOnGlitch": true
 }

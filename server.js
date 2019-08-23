@@ -6,7 +6,11 @@ const Discord = require("discord.js"),
     log = console.log,
     prefix = config.prefix,
     bot = new Discord.Client(),
-    lang = config.lang;
+    lang = config.lang,
+    http = require('http'),
+    express = require('express'),
+    app = express();
+
 
 if (lang === null || lang.length < 1) throw new Error("no language specified.");
 if (!fs.existsSync(`./langs/${lang}.json`)) throw new Error("could not find language file.");
@@ -22,7 +26,7 @@ function fetchColors(roles) {
 
 bot.on("ready", () => {
     log("logged in.");
-    bot.user.setActivity("c!", {
+    bot.user.setActivity(prefix, {
         type: "PLAYING"
     });
 });
@@ -145,8 +149,19 @@ bot.on("message", (msg) => {
     if (config.silentUse && !talk && msg.channel.permissionsFor(bot.user).has("MANAGE_MESSAGES")) msg.delete(5);
 });
 
+app.get("/", (request, response) => {
+  response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+
+
+if (config.hostedOnGlitch) {
+  setInterval(() => {
+    http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+  }, 280000);
+};
+
 log("initializing");
-//while (true) {}
 bot.login(process.env.TOKEN).catch((e) => {
     throw new Error(`can't login: ${e.message}`)
 })
