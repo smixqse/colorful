@@ -15,8 +15,10 @@
   "START_WITH": "start with",
   "END_WITH": "end with",
   "CONTAIN": "contain",
-  "COULD_NOT_FIND": "No color or command with that name could be found. Try using the help command.",
+  "COULD_NOT_FIND": "No color or command with that name could be found, or you just don't have permission to use it. Try using the help command.",
   "COLORED": "You're now colored as",
   "NOT_COLORED": "You're no longer colored as",
-  "MISSING_PERMISSIONS": "I don't have the permission to give or remove roles."
+  "MISSING_PERMISSIONS": "I don't have the permission to give or remove roles.",
+  "OTHER_ROLES": "There may be other color detection methods for special roles, but default methods need to be added.",
+  "AVAILABLE": "Available for everyone"
 }

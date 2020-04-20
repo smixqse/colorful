@@ -15,8 +15,10 @@
   "START_WITH": "começam com",
   "END_WITH": "terminam com",
   "CONTAIN": "contém",
-  "COULD_NOT_FIND": "Nenhuma cor ou comando foi encontrado. Tente usar o comando de ajuda (help).",
+  "COULD_NOT_FIND": "Nenhuma cor ou comando foi encontrado, ou você não tem permissão para usá-la. Tente usar o comando de ajuda (help).",
   "COLORED": "Agora você tem a cor",
   "NOT_COLORED": "Agora você não tem mais a cor",
-  "MISSING_PERMISSIONS": "Eu não tenho a permissão para fazer isso."
+  "MISSING_PERMISSIONS": "Eu não tenho a permissão para fazer isso.",
+  "OTHER_ROLES": "Devem existir outros métodos de detecção de cor para cargos exclusivos, mas métodos padrões precisam ser adicionados.",
+  "AVAILABLE": "Disponíveis para todos"
 }

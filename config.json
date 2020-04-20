@@ -1,8 +1,13 @@
 {
   "colorDetect": {
-    "startswith": ["Cor ", "Color "],
-    "endswith": [],
-    "contains": []
+    "default": {
+      "startswith": [
+        "Cor ",
+        "Color "
+      ],
+      "endswith": [],
+      "contains": []
+    }
   },
   "lang": "en",
   "prefix": "c!",
