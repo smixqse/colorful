@@ -162,7 +162,6 @@ bot.on("message", (msg) => {
                     colorList = `**${txt.AVAILABLE}**: ${roles.filter(r => detect["default"].startswith.some(i => r.name.toLowerCase().startsWith(i.toLowerCase())) || detect["default"].endswith.some(i => r.name.toLowerCase().endsWith(i.toLowerCase())) || detect["default"].contains.some(i => r.name.toLowerCase().includes(i.toLowerCase()))).array().join(", ")}`
                     for (var roleDetect in config.colorDetect) {
                         if (roleDetect === "default") continue;
-                        console.log(msg.member.roles.cache.map(a => a.name), roleDetect)
                         var userHas = false;
                         userHas = msg.member.roles.cache.some(r => r.name.toLowerCase().includes(roleDetect.toLowerCase()))
                         colorList += `\n${(!userHas) ? "~~" : ""}**${roleDetect}**: ${roles.filter(r => detect[roleDetect].startswith.some(i => r.name.toLowerCase().startsWith(i.toLowerCase())) || detect[roleDetect].endswith.some(i => r.name.toLowerCase().endsWith(i.toLowerCase())) || detect[roleDetect].contains.some(i => r.name.toLowerCase().includes(i.toLowerCase()))).array().join(", ")}${(!userHas) ? "~~" : ""}`
